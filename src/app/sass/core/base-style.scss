@@ -1,2 +1,22 @@
 /* Estilos globais do projeto e para estilizar classes do MDL */
 /* Global styles and to custom MDL class */
+
+body {
+    font-family: $preferred_font;
+    color: $palette-grey-900;
+}
+
+a,
+input,
+select,
+button {
+    border: none;
+    outline: none;
+
+	&:focus,
+    &:active,
+    &:checked {
+	  border: none;
+	  outline: 0;
+	}
+}

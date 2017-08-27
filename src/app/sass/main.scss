@@ -2,5 +2,7 @@
 *   Main Stylesheet
 */
 
-@import "mdl-custom";
-@import "core";
+@import "variables";
+
+@import "core/reset";
+@import "core/base-style";
