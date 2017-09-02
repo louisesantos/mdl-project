@@ -7,10 +7,8 @@
 @import "color-definitions";
 
 /* CORES PRINCIPAIS */
-$color-primary: $palette-yellow-500;
-$color-accent: $palette-yellow-500;
-// $color-primary-contrast: $color-black;
-// $color-accent-contrast: $color-black;
+$color-primary: $palette-purple-500;
+$color-accent: $palette-yellow-700;
 
 /* COR DE LINKS */
 $text-link-color: $palette-blue-A200;
@@ -18,10 +16,6 @@ $text-link-color: $palette-blue-A200;
 /* CONFIG. DE BOTÕES */
 $button-height: 40px;
 
-/* CHECKBOX */
-$checkbox-color: unquote("rgb(#{$palette-indigo-500})");
-$checkbox-off-color: unquote("rgb(#{$palette-indigo-500})");
-
 /* RADIO BUTTON */
-$radio-color: unquote("rgb(#{$palette-indigo-500})");
-$radio-off-color: unquote("rgb(#{$palette-indigo-500})");
+$radio-color: unquote("rgb(#{$palette-pink-500})");
+$radio-off-color: unquote("rgb(#{$palette-grey-500})");

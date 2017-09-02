@@ -77,8 +77,7 @@ module.exports = function(grunt) {
                 options: {
                     style: 'expanded',
                     sourceMap: true,
-                    outputStyle: 'compressed',
-                    loadPath: 'node_modules/material-design-lite/src'
+                    outputStyle: 'compressed'
                 },
                 files: {
                     "<%= paths.public %><%= paths.css %>/main.min.css":

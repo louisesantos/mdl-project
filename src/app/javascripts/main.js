@@ -5,7 +5,7 @@ MDL_PROJ.main = {
         var self = this;
 
         $(function() {
-            this.test();    
+            self.test();    
         });
     },
 
